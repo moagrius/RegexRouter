@@ -9,7 +9,6 @@ Usage
 The only actual code is RegexRouter.php.  index.php and the .htaccess file are just demoing usage.  The 3 together in a TLD will function.
 
 Setup
-
 ===========
 
 1.  make sure you're sending all requests to a front controller (either through apache conf directly or htaccess)
