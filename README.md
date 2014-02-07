@@ -16,5 +16,5 @@ Setup
 1.  include or require RegexRouter.php `require_once 'RegexRouter.php';`
 1.  instantiate a new instance `$router = new RegexRouter();`
 1.  add some routes `$router->route('/^\/some\/pattern$/', <closure>);`
-1.  pass it the uri (either REQUEST_URI or any string for unit testing) `$router->execute($_SERVER['REQUEST_URI']);`
+1.  pass it either REQUEST_URI or any string for unit testing `$router->execute($_SERVER['REQUEST_URI']);`
 
